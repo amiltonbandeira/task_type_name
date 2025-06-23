@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="task_type_name_form" model="ir.ui.view">
+            <field name="name">Task.Type.Name.Form</field>
+            <field name="model">project.task</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <field name="name_task"/>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="task_type_name_action" model="ir.actions.act_window">
+            <field name="name">Action Task</field>
+            <field name="res_model">project.task</field>
+            <field name="view_mode">Form,List,Kanban</field>
+        </record>
+    </data>
+</odoo>

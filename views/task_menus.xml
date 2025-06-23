@@ -1,0 +1,7 @@
+<odoo>
+    <data>
+        <menuitem id="menu_father" name="Father_menu" sequence="10"/>
+            <menuitem id="menu_son" name="Son_menu" sequence="10" action="task_type_name_action"/>
+
+    </data>
+</odoo>
